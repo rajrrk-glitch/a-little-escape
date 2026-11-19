@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.*
+# Keep private / unlicensed photos out of the public repo.
+# Put them in public/photos/**/private-* if you only want them locally.
+public/photos/**/private-*
