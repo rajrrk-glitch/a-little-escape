@@ -84,16 +84,18 @@ export const destinations = [
     location: 'Gahunje, Pune',
     description: 'A little luxury, a little pampering, and a whole lot of us.',
     highlights: [
-      'Exclusive private apartment stay',
+      'Exclusive private apartment stay — golf course one way, river the other',
       'Private Jacuzzi within the apartment*',
       'Romantic dinner at CopaCabana',
       'A relaxed evening, just us',
     ],
-    footnote: '*Jacuzzi subject to property verification before booking.',
+    footnote: '*Photos show the “riverfront home with the jacuzzi” (16th floor). Jacuzzi subject to property verification before booking.',
     photos: [
-      { src: asset('photos/luxe/apartment-living.webp'), alt: 'Apartment living room', source: 'https://www.lodhagroup.com/projects/residential-property-in-pune/the-reserve-at-lodha-belmondo' },
-      { src: asset('photos/luxe/jacuzzi.webp'), alt: 'In-apartment Jacuzzi', source: 'Listing of the exact apartment you book (Airbnb / host)' },
-      { src: asset('photos/luxe/balcony-golf-view.webp'), alt: 'Balcony with golf course view', source: 'Listing of the exact apartment you book (Airbnb / host)' },
+      { src: asset('photos/luxe/apartment-living.webp'), alt: 'The apartment’s living room and kitchen', source: 'https://bnbsolutions.co.in/homes/riverfront-jacuzzi-golf-view/' },
+      { src: asset('photos/luxe/jacuzzi.webp'), alt: 'Private Jacuzzi tub in the apartment', source: 'https://bnbsolutions.co.in/homes/riverfront-jacuzzi-golf-view/' },
+      { src: asset('photos/luxe/bedroom.webp'), alt: 'The bedroom', source: 'https://bnbsolutions.co.in/homes/riverfront-jacuzzi-golf-view/' },
+      { src: asset('photos/luxe/balcony-golf-view.webp'), alt: 'Balcony looking over the golf course', source: 'https://bnbsolutions.co.in/homes/riverfront-jacuzzi-golf-view/' },
+      { src: asset('photos/luxe/golf-course.webp'), alt: 'Lodha Belmondo golf course from above', source: 'https://bnbsolutions.co.in/' },
     ],
   },
   {
@@ -113,9 +115,10 @@ export const destinations = [
     ],
     footnote: '',
     photos: [
-      { src: asset('photos/nature/chalet-exterior.webp'), alt: 'Chalet exterior', source: 'https://www.makemytrip.global/hotels/the_chalets_pune-details-mulshi.html' },
-      { src: asset('photos/nature/chalet-bedroom.webp'), alt: 'Chalet bedroom', source: 'Property’s own listing / Google Maps photos (with owner permission)' },
-      { src: asset('photos/nature/nature-view.webp'), alt: 'View of the hills and lake', source: 'Property’s own listing / Google Maps photos (with owner permission)' },
+      { src: asset('photos/nature/chalet-exterior.webp'), alt: 'The two chalets with the lake and hills behind', source: 'https://maps.app.goo.gl/GPYw2dNrBX19j5Ni9' },
+      { src: asset('photos/nature/chalet-bedroom.webp'), alt: 'Chalet bedroom', source: 'https://maps.app.goo.gl/GPYw2dNrBX19j5Ni9' },
+      { src: asset('photos/nature/bathtub-valley-view.webp'), alt: 'Bathtub with a view of the valley', source: 'https://maps.app.goo.gl/GPYw2dNrBX19j5Ni9' },
+      { src: asset('photos/nature/garden-lake-view.webp'), alt: 'Garden path with lanterns and the lake', source: 'https://maps.app.goo.gl/GPYw2dNrBX19j5Ni9' },
     ],
   },
   {
@@ -152,6 +155,8 @@ export const destinations = [
       { src: asset('photos/ultimate/jacuzzi-cabin-night.webp'), alt: 'Private Jacuzzi Cabin — outdoor Jacuzzi at night', source: 'https://shubhraangan.com/private-jacuzzi-cabin/' },
       { src: asset('photos/ultimate/pool-cabin.webp'), alt: 'Private Pool Cabin — plunge pool', source: 'https://shubhraangan.com/private-pool-cabin/' },
       { src: asset('photos/ultimate/bedroom.webp'), alt: 'Cabin bedroom', source: 'https://shubhraangan.com/image-gallery/' },
+      { src: asset('photos/ultimate/jacuzzi-cabin-day.webp'), alt: 'Private Jacuzzi Cabin — outdoor Jacuzzi by day', source: 'https://shubhraangan.com/private-jacuzzi-cabin/' },
+      { src: asset('photos/ultimate/candlelight-dinner.webp'), alt: 'Candlelight dinner setup (offered by the property)', source: 'https://shubhraangan.com/image-gallery/' },
     ],
   },
 ]

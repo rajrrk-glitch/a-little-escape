@@ -58,11 +58,15 @@ export default function DestinationDetail({ d }) {
 
         {rest.length > 0 && (
           <div className="mt-5 grid grid-cols-2 gap-3">
-            {rest.map((p, i) => (
-              <div key={p.alt} className={`bg-white p-1.5 pb-5 soft-shadow ${i % 2 ? 'rotate-2' : '-rotate-2'}`}>
-                <Photo photo={p} className="aspect-square w-full" rounded="rounded-none" />
-              </div>
-            ))}
+            {rest.map((p, i) => {
+              const wide = rest.length % 2 === 1 && i === rest.length - 1
+              return (
+                <figure key={p.alt} className={`bg-white p-1.5 soft-shadow ${wide ? 'col-span-2 rotate-1' : i % 2 ? 'rotate-2' : '-rotate-2'}`}>
+                  <Photo photo={p} className={`${wide ? 'aspect-[2/1]' : 'aspect-square'} w-full`} rounded="rounded-none" />
+                  <figcaption className="px-1 pt-1 text-center font-hand text-sm leading-tight text-coffee/80">{p.alt}</figcaption>
+                </figure>
+              )
+            })}
           </div>
         )}
 

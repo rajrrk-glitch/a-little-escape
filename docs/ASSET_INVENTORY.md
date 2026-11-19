@@ -1,50 +1,66 @@
 # Asset inventory
 
-Research date: 19 Nov 2026. Every image slot in `src/config.js` points at a local file in
-`public/photos/`. **No property photos are committed yet** — each slot currently renders a
-clearly labelled placeholder with a "see the real one ↗" link, plus the hand-drawn cover art.
+Collected 19 Nov 2026. All property photos are the properties' own (or their listing's) real
+photos, used for a personal, non-commercial invitation at the owner's request (Raj). All were
+resized to max 1600 px wide, aspect ratio kept, re-encoded as WebP (q78) with metadata stripped.
 
-## Why no photos were downloaded
+Usage status for every image: **personal non-commercial use, attributed; no licence granted by
+the source.** Shubhraangan's Terms of Service (§8) say its images may not be used or distributed
+without prior permission — if the property asks, remove them. To be safe, a quick
+"Can I use your photos on a personal invite for my fiancée?" message to each property is
+still worthwhile.
 
-| Property | Finding |
-|---|---|
-| Shubhraangan | Official site's Terms of Service, §8: text, graphics and images are the property of Shubhraangan; you may not use, modify or distribute them without prior permission. GitHub Pages from a public repo = distribution. |
-| Lodha Belmondo | No single "official" apartment exists — short-stay units are individual Airbnb/Expedia listings owned by different hosts. Photos must come from the **exact unit you book** (and its Jacuzzi must be verified). Lodha's own project page shows the community, not a rental apartment. |
-| The Chalets, Mulshi | No official website or Instagram found. Only OTA listings (MakeMyTrip, cozycozy), whose photos belong to the owner/OTA. |
+## Lodha Belmondo — The Luxe Escape
 
-Google Images / Google Maps photos were not used: they don't grant reuse rights.
+Unit shown: **"The riverfront home with the jacuzzi"**, 1BHK, 16th floor, operated by
+BNB Solutions (Airbnb Superhost) — https://bnbsolutions.co.in/homes/riverfront-jacuzzi-golf-view/
 
-**Easiest legitimate route:** message each property (or the Airbnb host) and ask:
-"Can I use 2–3 of your photos on a small personal invitation page for my fiancée?"
-Most say yes. Then drop the files in with the filenames below.
+| Local file | Description | Source URL | Credit |
+|---|---|---|---|
+| `public/photos/luxe/apartment-living.webp` | Living room + kitchen | https://bnbsolutions.co.in/img/riverfront-jacuzzi-golf-view/w/01.jpg | © BNB Solutions |
+| `public/photos/luxe/jacuzzi.webp` | Bathroom with private Jacuzzi tub | https://bnbsolutions.co.in/img/riverfront-jacuzzi-golf-view/th/06.jpg | © BNB Solutions |
+| `public/photos/luxe/bedroom.webp` | Bedroom | https://bnbsolutions.co.in/img/riverfront-jacuzzi-golf-view/w/04.jpg | © BNB Solutions |
+| `public/photos/luxe/balcony-golf-view.webp` | Balcony over the golf course | https://bnbsolutions.co.in/img/riverfront-jacuzzi-golf-view/th/14.jpg | © BNB Solutions |
+| `public/photos/luxe/golf-course.webp` | Estate golf course from above | https://bnbsolutions.co.in/img/estate/08.jpg | © BNB Solutions |
 
-## Inventory
+Note: images 06 and 14 were only available at 480×480 on the site, so they're small.
 
-| # | Property | Image description | Original source | Local filename | Status |
-|---|---|---|---|---|---|
-| 1 | Lodha Belmondo | Apartment living room / interiors | Listing of the unit you book; project page: https://www.lodhagroup.com/projects/residential-property-in-pune/the-reserve-at-lodha-belmondo | `public/photos/luxe/apartment-living.webp` | Placeholder — needs host permission |
-| 2 | Lodha Belmondo | In-apartment private Jacuzzi | Listing of the unit you book | `public/photos/luxe/jacuzzi.webp` | Placeholder — verify Jacuzzi + permission |
-| 3 | Lodha Belmondo | Balcony / golf-course view | Listing of the unit you book | `public/photos/luxe/balcony-golf-view.webp` | Placeholder — needs host permission |
-| 4 | The Chalets, Mulshi | Chalet exterior | https://www.makemytrip.global/hotels/the_chalets_pune-details-mulshi.html | `public/photos/nature/chalet-exterior.webp` | Placeholder — needs owner permission |
-| 5 | The Chalets, Mulshi | Bedroom interior | Owner / listing | `public/photos/nature/chalet-bedroom.webp` | Placeholder — needs owner permission |
-| 6 | The Chalets, Mulshi | Hills / lake view | Owner / listing | `public/photos/nature/nature-view.webp` | Placeholder — needs owner permission |
-| 7 | Shubhraangan | **Private Jacuzzi Cabin** — outdoor Jacuzzi at night ("Pushpaangan Outdoor Jacuzzi in Night") | https://shubhraangan.com/private-jacuzzi-cabin/ | `public/photos/ultimate/jacuzzi-cabin-night.webp` | Placeholder — ToS requires permission |
-| 8 | Shubhraangan | **Private Pool Cabin with Jacuzzi** — plunge pool ("Taraangan Private Pool") | https://shubhraangan.com/private-pool-cabin/ | `public/photos/ultimate/pool-cabin.webp` | Placeholder — ToS requires permission |
-| 9 | Shubhraangan | Cabin bedroom ("Taraangan Bedroom") | https://shubhraangan.com/image-gallery/ | `public/photos/ultimate/bedroom.webp` | Placeholder — ToS requires permission |
+## The Chalets, Mulshi — The Nature Escape
 
-Other Shubhraangan gallery images worth asking for: outdoor Jacuzzi in daylight, cabin front at
-dusk, stargazing, candle-light dinner setup, Jacuzzi décor with petals (all on
-https://shubhraangan.com/image-gallery/).
+Google Maps listing (link supplied by Raj): https://maps.app.goo.gl/GPYw2dNrBX19j5Ni9
 
-## Adding a photo once you have permission
+| Local file | Description | Source | Credit |
+|---|---|---|---|
+| `public/photos/nature/chalet-exterior.webp` | Both chalets, lily pond, lake and hills | Google Maps photo posted by "The Chalets, Mulshi" (owner) | © The Chalets, Mulshi |
+| `public/photos/nature/chalet-bedroom.webp` | Green-walled bedroom | Google Maps listing photo | © The Chalets, Mulshi / Google Maps contributor |
+| `public/photos/nature/bathtub-valley-view.webp` | Bathtub facing the valley | Google Maps listing photo | © The Chalets, Mulshi / Google Maps contributor |
+| `public/photos/nature/garden-lake-view.webp` | Garden path, lanterns, lake | Google Maps listing photo | © The Chalets, Mulshi / Google Maps contributor |
+
+## Shubhraangan, Velhe — The Ultimate Escape
+
+Official site: https://shubhraangan.com/ — images from its CDN
+`https://b3177919.assetcdn.net/2.0/3177919/wp-content/uploads/…`
+
+| Local file | Description | Cabin | Original file | Credit |
+|---|---|---|---|---|
+| `public/photos/ultimate/jacuzzi-cabin-night.webp` | Outdoor Jacuzzi at night | Private Jacuzzi Cabin (Pushpaangan) | `2023/09/Pushpaangan-Outdoor-Jacuzzi-in-Night-1536x1152.jpeg` | © Shubhraangan |
+| `public/photos/ultimate/jacuzzi-cabin-day.webp` | Outdoor Jacuzzi by day | Private Jacuzzi Cabin (Pushpaangan) | `2023/09/Pushpaangan-Outdoor-Jacuzzi-in-Daylight-1536x1152.jpg` | © Shubhraangan |
+| `public/photos/ultimate/pool-cabin.webp` | Private plunge pool | Private Pool Cabin with Jacuzzi (Taraangan) | `2023/09/Taraangan-Private-Pool-1536x1152.jpeg` | © Shubhraangan |
+| `public/photos/ultimate/bedroom.webp` | Bedroom | Taraangan | `2023/09/Taraangan-Bedroom-1536x1152.jpeg` | © Shubhraangan |
+| `public/photos/ultimate/candlelight-dinner.webp` | Candlelight dinner setup (a property add-on, not booked) | — | `2024/11/Candle-light-dinner-setup-scaled.jpg` | © Shubhraangan |
+
+Cabin ↔ photo mapping (Pushpaangan = Jacuzzi cabin, Taraangan = Pool cabin) is inferred from the
+site's file names and cabin pages.
+
+## Not used
+
+Google Images thumbnails (never hotlinked), guest photos showing people, and unrelated photos
+from the Maps gallery (bus stand, other venues).
+
+## Swapping a photo
 
 ```bash
-# convert + compress to WebP (macOS: brew install webp)
-cwebp -q 78 -resize 1600 0 original.jpg -o public/photos/ultimate/pool-cabin.webp
+cwebp -q 78 -resize 1600 0 -metadata none original.jpg -o public/photos/<folder>/<name>.webp
 ```
 
-Keep the aspect ratio (the `-resize 1600 0` keeps it). Then add the credit line to the table
-above (e.g. "© Shubhraangan, used with permission, <date>").
-
-Want a photo only on your machine, not in the public repo? Name it `private-*.webp` — those are
-git-ignored — but note they then won't appear on the live site either.
+Then point the matching `photos` entry in `src/config.js` at it and add a row above.
